@@ -58,11 +58,16 @@ namespace jzarciaExam4Prog.Servicios
         }
 
        
-        public void mostrarConsultas()
+        public void mostrarConsultas(List<CitasDto> listaCitas)
         {
 
             Console.WriteLine("Indique la fecha que quiera consultar");
             DateTime fechaConsulta = Convert.ToDateTime(Console.ReadLine());
+
+            foreach (CitasDto dto in listaCitas)
+            {
+                Console.WriteLine(dto.ToString());
+            }
 
         }
 
