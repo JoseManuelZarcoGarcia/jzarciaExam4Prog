@@ -23,9 +23,8 @@ namespace jzarciaExam4Prog.Servicios
 
                 for (int i = 0; i <= lineas.Length; i++) 
                 {
+                    
 
-                    /*  Esta comentado ya que sino da error, por lo que 
-                     *  
                     string acistenciaStringABool = lineas[i].Split(";")[5];
                     if (acistenciaStringABool == "true")
                     {
@@ -33,14 +32,14 @@ namespace jzarciaExam4Prog.Servicios
                     }
                     nuevaCita.AcistenciaCita = false;
                     
-                    DateTime fechaCitaStringADateTime = Convert.ToDateTime(lineas[i].Split(";")[4]);*/
+                    DateTime fechaCitaStringADateTime = Convert.ToDateTime(lineas[i].Split(";")[4]);
 
                     nuevaCita.IdCita = op.crearId(carga);
                     nuevaCita.DniPaciente = lineas[i].Split(";")[0];
                     nuevaCita.MonbrePaciente = lineas[i].Split(";")[1];
                     nuevaCita.ApellidosPaciente = lineas[i].Split(";")[2];
                     nuevaCita.Especialidad = lineas[i].Split(";")[3];
-                   // nuevaCita.FechaCita = fechaCitaStringADateTime;
+                    nuevaCita.FechaCita = fechaCitaStringADateTime;
                     
 
                     carga.Add(nuevaCita);
@@ -51,7 +50,9 @@ namespace jzarciaExam4Prog.Servicios
             }
             catch (IOException ioex)
             {
-
+                string patata = "47966922T;Alfonso;Fernández García;Psicología;29-04-2024 12:30:00;true";
+                string[] p2 = patata.Split(";");
+                string p3 = patata.Split(";")[0];
 
                 throw;
             }

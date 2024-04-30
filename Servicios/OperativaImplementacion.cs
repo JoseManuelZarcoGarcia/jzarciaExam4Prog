@@ -23,9 +23,8 @@ namespace jzarciaExam4Prog.Servicios
         {
             bool validacion = false;
 
-
-        }
-        */
+        }*/
+        
 
 
         public long crearId(List<CitasDto> lista)
@@ -45,51 +44,4 @@ namespace jzarciaExam4Prog.Servicios
         }
     }
 }
-/*
-for (int f = 0; f < carga.Count; f++)
-{
-    for (int c = 0; c < carga.Count - 1 - f; c++)
-    {
-        // ( cambiando el simbolo mayor que, cambiamos la condicion a cumplir )
-        if (carga[c + 1] > carga[c])
-        {
-            CitasDto aux = carga[c + 1];
-            carga[c + 1] = carga[c];
-            carga[c] = aux;
-        }
-    }
-    return carga;
-}*/
 
-
-
-
-
-
-
-/*
-
-        
-        // Metodo burbuja
-        
-        for (int f = 0; f<listaCliente.Count; f++)
-        {
-            for (int c = 0; c<listaCliente.Count - 1 - f; c++)
-            {
-                // ( cambiando el simbolo mayor que, cambiamos la condicion a cumplir )
-                if (listaCliente[c + 1].FechaLlegadaAControl > listaCliente[c].FechaLlegadaAControl)
-                {
-                    Vehiculo aux = listaCliente[c + 1];
-        listaCliente[c + 1] = listaCliente[c];
-                    listaCliente[c] = aux;
-                }
-
-
-        }
-
-
-
-        return listaCliente;
-
-    }
-}*/

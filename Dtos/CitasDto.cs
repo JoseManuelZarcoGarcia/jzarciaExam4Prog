@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace jzarciaExam4Prog.Dtos
 {
+    /// <summary>
+    /// Clase entidad que representara las citas medicas
+    /// </summary>
     internal class CitasDto
     {
 
@@ -43,6 +46,13 @@ namespace jzarciaExam4Prog.Dtos
 
         public CitasDto() { }
 
+        override
+        public string ToString()
+        {
+            string citasMedicasConsulta = string.Concat("", this.idCita, "", this.dniPaciente, "",this.monbrePaciente,
+                "",this.apellidosPaciente, "",this.especialidad, "",this.fechaCita, "",this.acistenciaCita, "|");
 
+            return citasMedicasConsulta;
+        }
     }
 }

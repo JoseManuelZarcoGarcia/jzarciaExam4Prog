@@ -21,16 +21,13 @@ namespace jzarciaExam4Prog.Controladores
             MenuInterfaz mi = new MenuImplementacion();
             FicheroInterfaz fi = new FicheroImplementacion();
             OperativaInterfaz op = new OperativaImplementacion();
-            List<CitasDto> listaCitas = new List<CitasDto>();
-            listaCitas = fi.cargaInicialLista();
+             List<CitasDto> listaCitas = new List<CitasDto>();
+             listaCitas = fi.cargaInicialLista();
             string ficheroLog = "";
             string ficheroImprimirConsulta = string.Concat("C:\\Users\\csi22-jzarcia\\Desktop\\", "citasConAsistencia-","", ".txt");
             string especialidad;
             int opcionSeleccionad, especialidadSeleccionada;
             bool cerrarMenu = false;
-
-            string patata = "dfs";
-            patata.ToString();
             do
             {
 
