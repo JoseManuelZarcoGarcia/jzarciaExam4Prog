@@ -1,0 +1,14 @@
+C:\Users\csi22-jzarcia\source\repos\jzarciaExam4Prog\bin\Debug\net6.0\jzarciaExam4Prog.exe
+C:\Users\csi22-jzarcia\source\repos\jzarciaExam4Prog\bin\Debug\net6.0\jzarciaExam4Prog.deps.json
+C:\Users\csi22-jzarcia\source\repos\jzarciaExam4Prog\bin\Debug\net6.0\jzarciaExam4Prog.runtimeconfig.json
+C:\Users\csi22-jzarcia\source\repos\jzarciaExam4Prog\bin\Debug\net6.0\jzarciaExam4Prog.dll
+C:\Users\csi22-jzarcia\source\repos\jzarciaExam4Prog\bin\Debug\net6.0\jzarciaExam4Prog.pdb
+C:\Users\csi22-jzarcia\source\repos\jzarciaExam4Prog\obj\Debug\net6.0\jzarciaExam4Prog.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\csi22-jzarcia\source\repos\jzarciaExam4Prog\obj\Debug\net6.0\jzarciaExam4Prog.AssemblyInfoInputs.cache
+C:\Users\csi22-jzarcia\source\repos\jzarciaExam4Prog\obj\Debug\net6.0\jzarciaExam4Prog.AssemblyInfo.cs
+C:\Users\csi22-jzarcia\source\repos\jzarciaExam4Prog\obj\Debug\net6.0\jzarciaExam4Prog.csproj.CoreCompileInputs.cache
+C:\Users\csi22-jzarcia\source\repos\jzarciaExam4Prog\obj\Debug\net6.0\jzarciaExam4Prog.dll
+C:\Users\csi22-jzarcia\source\repos\jzarciaExam4Prog\obj\Debug\net6.0\refint\jzarciaExam4Prog.dll
+C:\Users\csi22-jzarcia\source\repos\jzarciaExam4Prog\obj\Debug\net6.0\jzarciaExam4Prog.pdb
+C:\Users\csi22-jzarcia\source\repos\jzarciaExam4Prog\obj\Debug\net6.0\jzarciaExam4Prog.genruntimeconfig.cache
+C:\Users\csi22-jzarcia\source\repos\jzarciaExam4Prog\obj\Debug\net6.0\ref\jzarciaExam4Prog.dll
